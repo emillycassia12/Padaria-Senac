@@ -1,0 +1,22 @@
+.navbar.scrolled{
+    background-color: #272727;
+    transition: background-color 0.3s ease-in-out;
+}
+.imgTop{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    background-image: url(../img/padaria.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    z-index: -1;
+}
+@media only screen and (max-width: 990px) {
+    .borTop{
+        border-top: 1px solid #dee2e6 !important;
+    }
+    .borBottom{
+        border-bottom: 1px solid #dee2e6 !important;
+    }    
+}
